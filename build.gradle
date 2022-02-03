@@ -1,7 +1,16 @@
 buildscript {
     ext {
         compose_version = '1.0.5'
-        compileSdk=32
+        kotlinVersion = '1.5.31'
+        coroutinesVersion = "1.6.0"
+
+        // Networking
+        retrofitVersion = "2.9.0"
+
+        // Moshi
+        moshiVersion = "1.12.0"
+
+        compileSdk = 32
         minSdk = 21
         targetSdk = 32
         versionCode = 1
