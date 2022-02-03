@@ -1,10 +1,9 @@
 package com.orlandev.core.model.character
 
 data class Result(
-    val created: String,
-    val episode: List<String>,
-    val gender: String,
     val id: Int,
+    val created: String,
+    val gender: String,
     val image: String,
     val location: Location,
     val name: String,
